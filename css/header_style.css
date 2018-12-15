@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+ul.header-list {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.header-list>li {
+    list-style-type: none;
+    margin-right: 27px;
+}
+
+
+.header-list li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 15px;
+    padding: 11px;
+    margin-left: 10px;
+}

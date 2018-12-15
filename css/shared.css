@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.centering-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.green_impact {
+color: #27C7AD;
+}
