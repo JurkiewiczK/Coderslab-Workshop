@@ -1,0 +1,27 @@
+.secondone {
+    width: 100%;
+    background-color: white;
+}
+
+.second_article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.banner {
+    display: flex;
+    border: 1px solid red;
+    width: 331px;
+    height: 230px;
+    margin-left: 12px;
+}
+
+.banner_other {
+    display: flex;
+    border: 1px solid red;
+    margin-right: 27px;
+    width: 340px;
+    height: 255px;
+}

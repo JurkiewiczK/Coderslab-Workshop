@@ -1,14 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
 .centering-container {
-    width: 60%;
+    width: 1100px;
     margin: 0 auto;
 }
 
 .green_impact {
 color: #27C7AD;
 }
+
+.green_button {
+    width: 265px;
+    margin-right: 45px;
+    font-size: 23px;
+    text-align: center;
+    padding: 11px;
+    margin-top: 32px;
+    background-color: #27C7AD;
+    color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 0;
+}
+
