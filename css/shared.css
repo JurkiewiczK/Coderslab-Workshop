@@ -16,15 +16,18 @@ color: #27C7AD;
 
 .green_button {
     width: 265px;
-    margin-right: 45px;
-    font-size: 23px;
-    text-align: center;
     padding: 11px;
-    margin-top: 32px;
-    background-color: #27C7AD;
+    margin: 32px 0 0 23px;
+
+    font-size: 23px;
+    font-weight: 500;
     color: white;
+    text-align: center;
+
+    background-color: #27C7AD;
     border-radius: 5px;
-    box-shadow: none;
     border: 0;
+    box-shadow: none;
+
 }
 

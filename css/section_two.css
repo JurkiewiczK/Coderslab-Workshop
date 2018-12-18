@@ -12,16 +12,59 @@
 
 .banner {
     display: flex;
-    border: 1px solid red;
     width: 331px;
     height: 230px;
     margin-left: 12px;
 }
 
-.banner_other {
+.banner-other {
     display: flex;
+    flex-direction: column;
     border: 1px solid red;
     margin-right: 27px;
     width: 340px;
     height: 255px;
+}
+
+.banner-1 {
+    background-image: url("../images/box1_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-2 {
+    background-image: url("../images/box2_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-description {
+    position: relative;
+    top: 152px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(240, 240, 240, 0.6);
+}
+
+.banner-other h4 {
+    margin-top: 7px;
+    padding: 21px;
+}
+
+.banner-other-content {
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.banner h5 {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.banner-1 h5 {
+    font-size: 16px;
+    padding: 12px;
+    margin-left: 10px;
 }
