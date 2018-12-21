@@ -19,8 +19,9 @@
 
 .banner-other {
     display: flex;
+    position: relative;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid lightgray;
     margin-right: 27px;
     width: 340px;
     height: 255px;
@@ -47,15 +48,16 @@
 }
 
 .banner-other h4 {
-    margin-top: 7px;
-    padding: 21px;
+    margin: 13px 0 0 5px;
+    padding: 16px;
 }
 
 .banner-other-content {
+    line-height: 20px;
     font-size: 14px;
+    color: dimgray;
     margin-left: 10px;
-    padding: 8px;
-    margin-top: 10px;
+    padding: 10px;
 }
 
 .banner h5 {
@@ -67,4 +69,25 @@
     font-size: 16px;
     padding: 12px;
     margin-left: 10px;
+}
+
+.banner-1 .green-underline {
+    position: absolute;
+    left: 18px;
+    top: 32px;
+    width: 139px;
+}
+
+.banner-2 .green-underline {
+    position: absolute;
+    left: 10px;
+    top: 32px;
+    width: 139px;
+}
+
+.banner-other .green-underline {
+    width: 140px;
+    position: absolute;
+    top: 49px;
+    left: 20px;
 }
