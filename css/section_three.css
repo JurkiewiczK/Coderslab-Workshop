@@ -104,6 +104,21 @@
     top: 288px;
 }
 
+
+.thirdone-banners .banner-circle .gray-banner-content:nth-child(5) {
+    position: absolute;
+    background-color: rgb(210,210,210);
+    top: 333px;
+}
+
+.thirdone-banners .banner-circle .gray-banner-content:nth-child(6) {
+    position: absolute;
+    background-color: rgb(227,227,227);
+    top: 378px;
+}
+
+
+
 .green-impact-button {
     border: none;
     position: absolute;
@@ -117,4 +132,57 @@
     font-size: 15px;
     text-shadow: none;
     box-shadow: none;
+}
+
+.gray-banner-content {
+    text-align: center;
+    font-size: 23px;
+    color: gray;
+    padding: 8px;
+}
+
+.thirdone-banners .banner-circle:nth-child(2) {
+    background-color: #27C7AD;
+}
+
+.thirdone-banners .banner-circle:nth-child(2) .main_content-round {
+    background-color: white;
+    border: 2px solid #27C7AD;
+    color: #27C7AD;
+}
+
+.thirdone-banners .banner-circle:nth-child(2) .gray-banner-content {
+    width: 99%;
+    align-self: center;
+    text-align: center;
+
+}
+
+.thirdone-banners .banner-circle:nth-child(2) .gray-banner-content:not(:nth-of-type(2)) {
+    background-color: white;
+
+}
+
+.thirdone-banners .banner-circle:nth-child(2) h3 {
+    color: white;
+}
+
+.thirdone-banners .banner-circle:nth-child(2) .round {
+    background-color: #27C7AD;
+    border:none;
+}
+
+.thirdone-banners .banner-circle:nth-child(2) .round-inside {
+    background-color: white;
+}
+
+.thirdone-banners .banner-circle:nth-child(2) .green-impact-button {
+    background-color: white;
+    color: #27C7AD;
+}
+
+.banner-circle .main_content-round {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
 }
