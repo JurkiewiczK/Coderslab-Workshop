@@ -15,11 +15,10 @@ ul.header-list {
     align-content: space-between;
 }
 
-.header-list>li {
+.header-list > li {
     list-style-type: none;
     margin-right: 30px;
 }
-
 
 .header-list li > a {
     text-decoration: none;
@@ -44,4 +43,29 @@ h1 {
 
 .container-photo {
     width: 49%;
+}
+
+.header-list ul {
+    position: absolute;
+    background-color: black;
+    padding-top: 12px;
+    top: 51px;
+    right: 211px;
+}
+
+.header-list ul li {
+    font-size: 16px;
+    padding: 0 20px 9px 13px;
+}
+
+.header-list ul:before {
+    position: absolute;
+    top: -10px;
+    right: 57px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 10px solid black;
 }

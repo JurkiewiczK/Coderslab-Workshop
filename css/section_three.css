@@ -181,8 +181,28 @@
     color: #27C7AD;
 }
 
-.banner-circle .main_content-round {
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
+.main_content-round {
+    padding: 24px;
+    font-size: 45px;
+    font-weight: 600;
+    color: darkgrey;
+}
+
+.main_content-round sup {
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.main_content-round span {
+    margin-left: 6px;
+}
+
+.main_content-round p:last-child {
+    font-size: 15px;
+    line-height: 26px;
+    margin-left: 3px;
+}
+
+.banner-circle:nth-of-type(3) .main_content-round span {
+    margin-left: -8px;
 }

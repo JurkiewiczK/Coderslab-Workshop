@@ -1,0 +1,164 @@
+.fourth-one {
+    height: 550px;
+    width: 100%;
+}
+
+.full-form-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.fourth-one h3 {
+    padding: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 11px;
+    color: dimgray;
+}
+
+.fourth-one .green-underline {
+    position: absolute;
+    top: 56px;
+    left: 23px;
+    width: 320px;
+}
+
+.fourth-one .form {
+    display: flex;
+    width: 60%;
+}
+
+.form input, textarea {
+    height: 64px;
+    margin-top: 28px;
+    width: 89%;
+    border: 1px solid #27C7AD;
+    padding-left: 15px;
+    font-size: 31px;
+}
+
+.form textarea {
+    height: 188px;
+}
+
+.form input::placeholder {
+    color: lightgray;
+}
+
+.form textarea::placeholder {
+    color: lightgray;
+    padding-top: 11px;
+}
+
+#main-form {
+    position: absolute;
+    left: 23px;
+    top: 81px;
+    width: 65%;
+}
+
+.form-confirmation {
+    display: flex;
+}
+
+.red-chair {
+    top: 81px;
+    position: absolute;
+    right: 104px;
+}
+
+.reg-checkbox {
+    position: absolute;
+    right: 11px;
+    top: 300px;
+    margin-top: 25px;
+}
+
+.reg-checkbox input {
+    visibility: hidden;
+    margin-left: -17px;
+}
+
+.reg-checkbox label {
+    position: relative;
+    left: -34px;
+    color: lightgray;
+    font-size: 20px;
+}
+
+.reg-checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -60px;
+    top: -1px;
+
+    height: 46px;
+    width: 46px;
+
+    border: 1px solid #27C7AD;
+}
+
+.reg-checkbox label::after {
+    content: "\2714";
+    font-size: 56px;
+    color: #27C7AD;
+    display: inline-block;
+    height: 12px;
+    width: 18px;
+    position: absolute;
+    left: -59px;
+    bottom: 43px;
+}
+
+.form-confirmation button {
+    cursor: pointer;
+    position: absolute;
+    right: 44px;
+    top: 378px;
+    width: 341px;
+    height: 70px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-foot {
+    width: 65%;
+    height: 130px;
+}
+
+.right-foot {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: 130px;
+}
+
+.left-foot p {
+    position: absolute;
+    font-size: 15px;
+    color: dimgray;
+    top: 30px;
+    left: 17px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.social-media {
+    padding-top: 15px;
+    width: 200px;
+}
+
+.right-foot p {
+    color: dimgray;
+    position: absolute;
+    font-size: 21px;
+    right: 27px;
+    top: 24px;
+    letter-spacing: .5px;
+}
